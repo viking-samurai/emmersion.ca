@@ -2717,6 +2717,37 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
+	.footer-banner{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		height: 6em;
+		background-color: #37c0fb;
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: 0;
+	}
+
+	#footer-banner-wrapper {
+		text-align: center;
+		margin-bottom: 0;
+		padding: 3.5em 0;
+	}
+
+		#footer-banner-wrapper header h2 {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0;
+		}
+
+		#footer-banner-wrapper header .button {
+			vertical-align: middle;
+			margin-left: 1em;
+		}
+
 /* Wrapper */
 
 	.wrapper {
@@ -2774,7 +2805,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 4em 0 8em 0;
+		padding: 4em 0 0 0;
 	}
 
 		#footer a {
@@ -2783,7 +2814,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #37c0fb;
+				color: #474747;
 				border-bottom-color: transparent;
 			}
 
@@ -2797,15 +2828,15 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: #999;
+				color: white;
 			}
 
 				#footer .icons a:hover {
-					color: #474747;
+					color: #999;
 				}
 
 		#footer .copyright {
-			color: #999;
+			color: white;
 			margin-top: 1.5em;
 			text-align: center;
 			font-size: 0.9em;
