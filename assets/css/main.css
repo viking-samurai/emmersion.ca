@@ -2217,6 +2217,7 @@ input, select, textarea {
 			}
 
 			ul.icons li a, ul.icons li span {
+				color: white;
 				font-size: 2em;
 				border: 0;
 			}
