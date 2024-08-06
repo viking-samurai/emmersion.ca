@@ -2728,7 +2728,6 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: baseline;
 		align-items: center;
-		padding-top: 3em;
 	}
 
 		#footer-banner-wrapper header h2 {
@@ -2829,15 +2828,19 @@ input, select, textarea {
 					color: #999;
 				}
 
-		.copyright {
-			margin: 0;
-		}
-
 		#footer .menu {
 			color: white;
 			text-align: center;
 			font-size: 0.9em;
 		}
+
+		.footer-link:link {
+			color: white;			
+		}
+			
+			.footer-link:hover {
+				color: #474747;			
+			}
 
 /* Wide */
 
@@ -3024,7 +3027,7 @@ input, select, textarea {
 		/* CTA */
 
 			#cta {
-				padding: 3.5em 0;
+				padding: 3.5em 20px;
 			}
 
 				#cta header h2 {
