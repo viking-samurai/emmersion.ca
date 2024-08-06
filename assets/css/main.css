@@ -2728,7 +2728,6 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: baseline;
 		align-items: center;
-		padding-top: 3em;
 	}
 
 		#footer-banner-wrapper header h2 {
