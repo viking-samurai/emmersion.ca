@@ -2718,31 +2718,23 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
-	.footer-banner{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		height: 6em;
-		background-color: #37c0fb;
-		position: relative;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: 0;
+			
+	.footer-banner {
+		margin: 3.5em auto 0 auto;
 	}
 
 	#footer-banner-wrapper {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: baseline;
 		align-items: center;
+		padding-top: 3em;
 	}
 
 		#footer-banner-wrapper header h2 {
 			display: inline-block;
 			vertical-align: middle;
-			margin: 0;
+			margin: 0 auto;
 		}
 
 		#footer-banner-wrapper header .button {
@@ -2753,7 +2745,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: auto 0;
 	}
 
 		.wrapper.style1 {
