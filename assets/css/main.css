@@ -2728,12 +2728,13 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: baseline;
 		align-items: center;
+		padding-top: 3em;
 	}
 
 		#footer-banner-wrapper header h2 {
 			display: inline-block;
 			vertical-align: middle;
-			margin: 0 auto;
+			margin: auto;
 		}
 
 		#footer-banner-wrapper header .button {
