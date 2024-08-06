@@ -2829,7 +2829,11 @@ input, select, textarea {
 					color: #999;
 				}
 
-		#footer .copyright {
+		.copyright {
+			margin: 0;
+		}
+
+		#footer .menu {
 			color: white;
 			text-align: center;
 			font-size: 0.9em;
