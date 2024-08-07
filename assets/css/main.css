@@ -2758,6 +2758,8 @@ input, select, textarea {
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
 			background-repeat: no-repeat,						no-repeat,						repeat;
+			border-top: solid #474747 1px;
+			border-bottom: solid #474747 1px;
 		}
 
 		.wrapper.style3 {
