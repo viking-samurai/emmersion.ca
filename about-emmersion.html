@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>E-mmersion.ca</title>
+		<title>E-mmersion.ca - About Us</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +25,7 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="current">
+								<li>
 									<a href="index.html#my-courses">Courses</a>
 									<ul>
 										<li><a href="coding-beginner-and-advanced.html">Beginner and Advanced Coding</a></li>
@@ -33,7 +33,7 @@
 										<li><a href="essay-engineer.html">Essay Engineer</a></li>
 									</ul>
 								</li>
-								<li><a href="about-emmersion.html">About</a></li>
+								<li class="current"><a href="about-emmersion.html">About</a></li>
 								<li><a href="index.html#footer">Contact</a></li>
 							</ul>
 						</nav>
@@ -49,42 +49,36 @@
 
 									<!-- Content -->
 
-										<article>
-											<header>
-												<h2>Beginner and Advanced Coding</h2>
-												<p>Learn the principles of coding and programming, one web project at a time.</p>
-											</header>
+									<article>
+										<header>
+											<h2>Are your kids future ready?</h2>
+										</header>
 
-											<span class="image featured"><img src="images/learning-to-code.jpg" alt="" /></span>
+										<span class="image featured"><img src="images/aboutUsImage.jpg" alt="" /></span>
 
-											<p>Coding and programming are one of the most sought after skillsets in today's job 
-												market, and for good reason.  They are a highly technical skillset that requires 
-												practitioners to think both mathematically and linguistically, generally at the 
-												same time.  As AI and automation continue to move into the workforce, those who 
-												have the ability to work with modern technology are able to make businesses 
-												more efficient, and then become invaluable to that business in the process.
-												Learning coding and programming earlier in life helps ensure that you or your 
-												children won't get left behind.</p>
-		
-											<h3>Why learn through web development?</h3>
-											<p>The Internet offers a unique way for students to learn coding and programming 
-												through modern web development. The trade promotes cognitive growth, is free 
-												to set-up and start learning, and provides learners with a unique medium for 
-												art and self-expression.  With E-mmersion.ca, Beginner coding starts students 
-												off with the basics: HTML5 and CSS3.  Students learn to control form before 
-												function, and move slowly through the different technologies that go into web 
-												development.  This helps learners get a feel for how the various langauges 
-												are all connected, and how they work together to create a whole.
-											<p>Withe E-mmersion.ca's advanced coding classes, students pick up where our beginner
-												courses leave off, continuing with HTML5 and CSS3, but adding JavaScript programming 
-												to the mix as well.  JavaScript is currently both the most common and the most sought 
-												after programming language in modern software development, and, given that it is 
-												considered ‘the language of the Internet’, it is likely to remain a dominant programming 
-												language for years to come.  The courses below are designed to be taken as collaborative 
-												learning opportunities in either English or French, but can also be prepared for one 
-												on one tutoring as well.  Use the <a href="#footer">contact form</a> below to get 
-												started on your next learning opportunity today!</p>
-										</article>
+										<p>Collaborative learning and digital literacy are hot topics in many educational 
+											spheres, and for good reason.  Children who learn and develop an understanding 
+											of these skills and technologies earlier in their lives tend to learn them more 
+											effectively, and are able to use them more consistently in the world around them.  
+											This leads to many more, as well as much better opportunities for students, 
+											particularly as they transition into young adults, and begin to enter the 
+											workforce.</p>
+
+										<h3>What are the benefits?</h3>
+										<p>The benefits of learning coding and programming early are twofold.  First off,
+											students who are digitally literate have much higher employment prospects then
+											those who aren't.  This is because, as the world becomes more reliant on digital
+											technologies, those who are digitally literate are more efficient at navigating
+											the requirements of the modern work environment then those who aren't, and their
+											employment mobility will reflect this.</p>
+
+										<p>Second, as with learning a second language, there are numerous cognitive benefits
+											that come from mastering the rigours of learning coding and programming.  It 
+											opens up new ways of thinking, and teaches students to process visual space in 
+											different dimensions than what they may normally be taught.  It also stengthens 
+											processes in key areas of the brain that are responsible for critical thinking, 
+											spacial organization, and memory retention.</p>
+									</article>
 
 								</div>
 							</div>
@@ -118,6 +112,8 @@
 					</div>
 				</section>
 
+			
+
 				
 				<section id="footer-banner-wrapper" class="wrapper style3">
 					<!-- Icons -->
@@ -138,6 +134,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				function captchaVerified() {
+					var submit = document.getElementById('submit-button');
+					var submitText = document.getElementById('reCAPTCHA-text')
+					submit.removeAttribute('disabled');
+					submitText.style.display = 'none';
+				}
+			</script>
 	</body>
 </html>
