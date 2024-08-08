@@ -113,6 +113,7 @@ input, select, textarea {
 		color: #37c0fb;
 		text-decoration: none;
 		border-bottom: dotted 1px;
+		font-size: 1.33rem;
 		font-weight: 400;
 	}
 
