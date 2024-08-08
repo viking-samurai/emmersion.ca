@@ -2593,7 +2593,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover a {
-					color: #fff;
+					color: #37c0fb;
 				}
 
 				#nav > ul > li.current {
@@ -2618,11 +2618,11 @@ input, select, textarea {
 					}
 
 					#nav > ul > li.current a {
-						color: #fff;
+						color: #37c0fb;
 					}
 
 				#nav > ul > li.active a {
-					color: #fff;
+					color: #37c0fb;
 				}
 
 				#nav > ul > li.active.current:before {
